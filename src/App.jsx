@@ -6,10 +6,6 @@ import Todo from './pages/Todo';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
 
-
-
-
-
 const App = () => {
   console.log(import.meta.env.VITE_APP_API_KEY);
   return (
