@@ -10,7 +10,7 @@ const App = () => {
   console.log(import.meta.env.VITE_APP_API_KEY);
   return (
     <div>
-      <BrowserRouter>
+      <BrowserRouter> // can also import as router ( hiearchy - router, routes , route )
         <Routes>
           <Route path="/" element={<Todo />} />
           <Route path="/login" element={<Login />} />
