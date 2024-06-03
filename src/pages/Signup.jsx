@@ -1,3 +1,4 @@
+// todo: when depoyled google popup signin doesnt work 
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { createUserWithEmailAndPassword, signInWithPopup, onAuthStateChanged } from 'firebase/auth';
