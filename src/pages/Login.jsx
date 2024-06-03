@@ -6,7 +6,7 @@ import {
   onAuthStateChanged,
 } from "firebase/auth";
 import { useNavigate } from "react-router-dom";
-import { auth, provider, db } from "../utils/firebaseconfig"; // Assuming auth, provider, db are exported from firebaseconfig
+import { auth, provider, db } from "../utils/firebaseconfig"; 
 import { doc, setDoc } from "firebase/firestore";
 import { FcGoogle } from "react-icons/fc";
 import { FaExternalLinkAlt } from "react-icons/fa";
