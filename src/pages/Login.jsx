@@ -15,7 +15,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEye, faEyeSlash } from '@fortawesome/free-solid-svg-icons'
 
 const Login = () => {
-  const navigate = useNavigate();
+  const navigate = useNavigate();  creating a instance for navigation
   const [credentials, setCredentials] = useState({ email: "", password: "" });
   const [hide, setHide] = useState(false);
 
