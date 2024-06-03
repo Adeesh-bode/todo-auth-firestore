@@ -57,7 +57,7 @@ const Signup = () => {
       if (user) navigate("/");
       else console.log("User is not signed in");
     });
-    return () => unsubscribe(); // Cleanup subscription on component unmount
+    return () => unsubscribe(); // remove/clean subscriptn on unmount
   }, [navigate]);
 
   return (
