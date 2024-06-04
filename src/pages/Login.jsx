@@ -95,7 +95,8 @@ const Login = () => {
 
                <div className="flex gap-4">
                   <input
-                     type={hide ? "text" : "password"}
+                     type={hide ? "text" : "password"} 
+{/*                     when type is password edge browser add hide/unhide password icon by itself */}
                      placeholder="Enter password"
                      name="password"
                      onChange={handleChange}
