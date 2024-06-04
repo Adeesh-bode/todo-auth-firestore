@@ -11,7 +11,7 @@ export default function Todo() {
   const [todos, setTodos] = useState([]);
   const [input, setInput] = useState('');
   const [editIndex, setEditIndex] = useState(-1);
-  const [userId, setUserId] = useState(null); // To store the current user's ID
+  const [userId, setUserId] = useState(null);
 
   const handleSignOut = () => {
     signOut(auth)
