@@ -30,7 +30,7 @@ export default function Todo() {
         console.log("User Signed in");
         setUserId(user.uid); 
 
-        // onSnapshot to get real time updates
+        // onSnapshot function is for real time updates
         const userDocRef = doc(db, 'todos', user.uid);
         const unsub = onSnapshot(userDocRef, (doc) => {
           const userData = doc.data();
